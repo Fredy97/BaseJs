@@ -53,7 +53,7 @@ function get(req, res, next) {
                         .json({
                             status: 'success',
                             data: data,
-                            message: 'Un usuario recibido'
+                            message: 'Un usuario se agrego correctamente'
                         });
             })
             .catch(function (err) {
